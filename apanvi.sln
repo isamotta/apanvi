@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{17595311-C09
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{27316DCC-EF4B-44EC-A218-A9243B2F29BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apanvi.Api", "src\Apanvi.Api\Apanvi.Api.csproj", "{084FD40C-C1FB-46C1-B3DC-9F66A698B957}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apanvi.API", "src\Apanvi.Api\Apanvi.API.csproj", "{084FD40C-C1FB-46C1-B3DC-9F66A698B957}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apanvi.Api.Tests", "tests\Apanvi.Api.Tests\Apanvi.Api.Tests.csproj", "{C2EDFE92-CBED-43E9-8E70-D5A56E4D2D07}"
 EndProject
