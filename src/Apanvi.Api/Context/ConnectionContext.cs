@@ -7,15 +7,17 @@ namespace Apanvi.API.Context
     {
         public ConnectionContext(DbContextOptions options) 
             :base(options) { }
-        public DbSet<Animal> Animals{ get; set; }
-        public DbSet<User> Users { get; set; }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ConnectionContext).Assembly);
-            modelBuilder.Seed();
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(ConnectionContext).Assembly);
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.UseSerialColumns();
+            modelBuilder.Seed();
         }
+        public DbSet<Animal> Animals { get; set; }
+        public DbSet<User> Users { get; set; }
     } 
 }
 
